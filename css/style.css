@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+       font-family: 'Dosis',sans-serif;
+}
+.title{
+    color:lightgray;   
+    font-size: 32px;
+    font-weight: 700; margin-bottom: 0 ! important;
+    
+}
+.nav{
+    background-color: white;
+    z-index: 10;
+}
+.home{
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.rightnav ul li{
+    display: inline-block;
+    font-size: 12.8px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color:#8e8e8e;
+    letter-spacing: 1px;
+}
+.port h1{
+    font-size: 56px;
+    color: white;
+    font-weight: 700;
+}
+.port h2{
+    font-size: 56px;
+    color: white;
+    font-weight: 300;
+}
+.port p{
+      font-size: 22.4px;
+    color: white;
+    font-weight: 400;  
+}
+.but{
+    border-radius: 0;
+}
+.port a{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.button:hover{
+    text-decoration: none;
+}
+.box{
+    height: 20px;
+    width: 30px;
+   
+}
+.box span{
+    background-color:dimgray;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 6px;
+    display: block;
+}
+.underline{
+    width: 50px;
+    background-color: gray;
+    height: 2px;
+}
+.feature i{
+    font-size: 32px;
+    padding: 15px;
+    color: #cccccc;
+}
+.feature h3{
+    font-size: 23px;
+    color: #232323;
+    font-weight: 500;
+}
+.feature p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.fet:hover > i{
+    color: orange;
+    transition: .4s;
+    cursor: pointer;
+}
+.banner{
+text-align: center;
+}
+.bex:hover > i{
+    color: orange;
+    transition: .4s;
+    cursor:pointer;
+}
+.banner i{
+    color:#232323;
+    font-size: 32px;
+}
+.banner h3{
+    font-weight:700;
+    padding-bottom: 45px;
+}
+.grid{
+
+}
+.cc{
+    background-color: #cccccc;
+}
+.ef{
+    background-color: #efefef;
+}
+.second-page{
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 760px){
+    .cont{
+       font-size: 26px; 
+    }
+    .contp{
+        font-size: 21px;
+    }
+    .feature{
+     text-align: center;   
+    }
+}
+@media only screen  and (min-width : 1824px){
+    .contp{
+        font-size: 26px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .third{
+          background-color: #efefef;
+    }
+    .fourth{
+        background-color: #cccccc;  
+    }
+}
+@media only screen  and (min-width : 1224px){
+     .contp{
+        font-size: 22px;
+    }
+}
