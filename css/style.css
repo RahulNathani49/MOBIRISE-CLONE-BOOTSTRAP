@@ -121,7 +121,97 @@ text-align: center;
     padding-bottom: 100px;
     padding-top: 30px;
 }
+.process a{
+   color:#ffbc00; 
+    text-decoration: none;
+}
+.process:hover > .circle{
+    background-color: #ffbc00;
+    transition: .4s;
+}
+.page-3{
+    background-color: #efefef;
+}
 
+.circle{
+    height:150px;
+    width: 150px;
+    background-color:#444444;
+    border-radius: 50%;
+    position: relative;
+}
+.circleinner{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#ffbc00;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.circle{
+    margin: auto;
+}
+.circleinner h3{
+    margin: 0;
+    line-height: 50px;
+}
+.iconin{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+.process{
+    text-align: center;
+}
+.aboutme ul i{
+color: #ffbc00;
+}
+.aboutme ul li{
+    list-style: none;
+}
+.cic{
+    background-color: #444444;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 25px;
+}
+.cic i{
+    margin-left: -8px;
+}
+.footer{
+    background-color: #232323;
+}
+.cic:hover{
+     background-color:#ffbc00;
+    transition: .4s;
+}
+.footer p{
+color: white;
+    line-height: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffbc00;
+}
+.cicr{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border:2px solid white;
+    color: white;
+    line-height: 50px;
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.cicr:hover{
+    background-color: #ffbc00;
+    transition: .4s;
+}
 @media only screen and (min-device-width : 320px) and (max-device-width : 760px){
     .cont{
        font-size: 26px; 
@@ -132,7 +222,35 @@ text-align: center;
     .feature{
      text-align: center;   
     }
+   
+    .footer{
+        text-align: center;
+    }
+    .cicr{
+            height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border:2px solid white;
+    color: white;
+    line-height: 40px;
+    font-size: 18px;
+    margin-left:  10px;
+    }
+    .linksfoot{
+        margin: auto;
+        width: 90%;
+    }
+    .cic{
+    background-color: #444444;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    padding: 8px 20px;
 }
+}
+
 @media only screen  and (min-width : 1824px){
     .contp{
         font-size: 26px;
