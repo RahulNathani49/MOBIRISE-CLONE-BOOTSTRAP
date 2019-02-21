@@ -125,6 +125,10 @@ text-align: center;
    color:#ffbc00; 
     text-decoration: none;
 }
+.process:hover .circleinner{
+    background-color: #212529;
+     transition: .4s;
+}
 .process:hover > .circle{
     background-color: #ffbc00;
     transition: .4s;
@@ -173,13 +177,17 @@ color: #ffbc00;
 .cic{
     background-color: #444444;
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
     font-size: 16px;
     color: white;
-    margin-left: 10px;
-    padding: 10px 25px;
+   
 }
 .cic i{
-    margin-left: -8px;
+    text-align:center;
 }
 .footer{
     background-color: #232323;
@@ -235,20 +243,13 @@ color: white;
     color: white;
     line-height: 40px;
     font-size: 18px;
-    margin-left:  10px;
+     cursor: pointer;
     }
     .linksfoot{
         margin: auto;
         width: 90%;
     }
-    .cic{
-    background-color: #444444;
-    border-radius: 50%;
-    font-size: 16px;
-    color: white;
-    margin-left: 10px;
-    padding: 8px 20px;
-}
+    
 }
 
 @media only screen  and (min-width : 1824px){
